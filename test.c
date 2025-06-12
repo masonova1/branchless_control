@@ -39,7 +39,6 @@ int main(void) {
   branchless_if(0, f1, f2); // c false  ->  "f2 executed."
   branchless_if(1, f1, f2); // c true   ->  "f1 executed."
 
-  int init = 10;
   // This:
     init_func();
     branchless_do_while(cond, body);
